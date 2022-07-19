@@ -1,0 +1,10 @@
+.die {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 10px;
+}
