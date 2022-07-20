@@ -1,6 +1,8 @@
 .die {
-  min-height: 100px;
-  min-width: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
