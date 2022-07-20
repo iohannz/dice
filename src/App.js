@@ -4,7 +4,6 @@ import Die from './components/Die/Die.jsx';
 import dice from './dice';
 import Button from './components/Button/Button.jsx';
 import { useState } from 'react';
-import Form from './components/Form/Form';
 
 function App() {
 
@@ -35,14 +34,9 @@ function App() {
     <div className="App">
       <div className='dice__container'>
         {diceList}
-        {/* <Die source = {die1}></Die>  
-        <Die source = {die2}></Die>  
-        <Die source = {die3}></Die>  
-        <Die source = {die4}></Die>  
-        <Die source = {die5}></Die>   */}
       </div>
-      <Button handler = {onRollBtnClick} description = {"Roll the Dice!"}></Button>
-      <Form handler = {onAddBtnClick}></Form>
+      <Button handler = {onRollBtnClick} description = {"Кинуть кости!"}></Button>
+      <Button handler = {onAddBtnClick} description = {"Убрать кость"}></Button>
     </div>
   );
 }

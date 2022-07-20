@@ -1,6 +1,6 @@
 
 
-export default {
+const dice = {
     1 : "dice-six-faces-one.svg",
     2 : "dice-six-faces-two.svg",
     3 : "dice-six-faces-three.svg",
@@ -8,3 +8,5 @@ export default {
     5 : "dice-six-faces-five.svg",
     6 : "dice-six-faces-six.svg",
 }
+
+export default dice;
