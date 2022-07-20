@@ -1,0 +1,37 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .header {
+    width: 100%;
+    .header__name {
+      font-size: 3em;
+      font-family: 'Roboto';
+      font-weight: bold;
+    }
+  }
+
+  .dice__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+
+  }
+
+
+

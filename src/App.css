@@ -1,24 +1,49 @@
-
 * {
   padding: 0;
   margin: 0;
 }
 
 .App {
+  text-align: center;
+  height: 100vh;
   max-width: 500px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  }
-
-.dice__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
+.App .header {
+  width: 100%;
+}
 
+.App .header .header__name {
+  font-size: 3em;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
 
+.App .dice__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+/*# sourceMappingURL=App.css.map */

@@ -4,6 +4,8 @@ import Die from './components/Die/Die.jsx';
 import dice from './dice';
 import Button from './components/Button/Button.jsx';
 import { useState } from 'react';
+import Dice from './components/Dice/Dice';
+
 
 function App() {
 
@@ -32,11 +34,16 @@ function App() {
   
   return (
     <div className="App">
+      <header className='header'>
+        <h1 className='header__name'>Кости лжеца</h1>
+      </header>
       <div className='dice__container'>
-        {diceList}
+        <Dice length={diceList.length} dice = {diceList}/>
       </div>
-      <Button handler = {onRollBtnClick} description = {"Кинуть кости!"}></Button>
-      <Button handler = {onAddBtnClick} description = {"Убрать кость"}></Button>
+      <div className='button__container'>
+        <Button handler = {onRollBtnClick} description = {"Кинуть кости!"}></Button>
+        <Button handler = {onAddBtnClick} description = {"Убрать кость"}></Button>
+      </div>
     </div>
   );
 }
