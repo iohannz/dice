@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAII,gBAJY,CAIZ,YAAY,CAAC;EACT,SAAS,EAAE,KAAK;EAChB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "Dice.scss"
+    ],
+    "names": [],
+    "file": "Dice.css"
+}

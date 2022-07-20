@@ -38,11 +38,15 @@ function App() {
         <h1 className='header__name'>Кости лжеца</h1>
       </header>
       <div className='dice__container'>
-        <Dice length={diceList.length} dice = {diceList}/>
+        <Dice length={diceList.length}  dice = {diceList}/>
       </div>
       <div className='button__container'>
-        <Button handler = {onRollBtnClick} description = {"Кинуть кости!"}></Button>
-        <Button handler = {onAddBtnClick} description = {"Убрать кость"}></Button>
+        <Button handler = {onRollBtnClick} 
+        description = {"Кинуть кости!"}
+        length={diceList.length}></Button>
+        <Button handler = {onAddBtnClick}
+        description = {"Убрать кость"}
+        length={diceList.length}></Button>
       </div>
     </div>
   );
