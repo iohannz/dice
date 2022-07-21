@@ -1,0 +1,16 @@
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.counter .btn__container {
+  margin: 0 auto;
+}
+
+.counter .count__container .count {
+  font-size: 2em;
+}
+/*# sourceMappingURL=Counter.css.map */

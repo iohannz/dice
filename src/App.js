@@ -5,7 +5,7 @@ import dice from './dice';
 import Button from './components/Button/Button.jsx';
 import { useState } from 'react';
 import Dice from './components/Dice/Dice';
-
+import Counter from './components/Counter/Counter';
 
 function App() {
 
@@ -41,6 +41,7 @@ function App() {
         <Dice length={diceList.length}  dice = {diceList}/>
       </div>
       <div className='button__container'>
+        <Counter></Counter>
         <Button handler = {onRollBtnClick} 
         description = {"Кинуть кости!"}
         length={diceList.length}></Button>

@@ -1,0 +1,14 @@
+.counter {
+    display: flex;
+    flex-wrap: nowrap;
+
+    .btn__container {
+        margin: 0 auto;
+    }
+    .count__container {
+    
+        .count {
+            font-size: 2em;
+        }
+    }
+}
